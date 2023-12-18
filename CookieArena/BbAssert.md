@@ -23,4 +23,4 @@ giải thích một chút về hàm system sẽ thực hiện command ls ở tro
  và injection như này 
 
  ' and die(system("ls;")) or ' 
- 
+ nào mình rảnh mình viết thêm nhá có bài này quên nên viết lại á
