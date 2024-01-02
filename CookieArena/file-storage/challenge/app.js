@@ -50,10 +50,13 @@ app.get("/readfile", function (req, resp) {
   let filename = file[req.query.filename];
   console.log(filename, "đây là dòng 49");
   if (filename == null) {
+    console.log(filename == null);
+    console.log(read["filename"], "đây là dòng 54");
     fs.readFile(
       __dirname + "/storage/" + read["filename"],
       "UTF-8",
       function (err, data) {
+        console.log(data);
         resp.send(data);
       }
     );
@@ -81,9 +84,11 @@ app.get("/test", function (req, resp) {
     resp.send("this page hasn't been made yet");
   } else if (func == "rename") {
     setValue(file, filename, rename);
+    console.log(read, "đay là dòng 84 nha");
     resp.send("rename");
   } else if (func == "reset") {
     read = {};
+    console.log(read.flag, "đay là dòng 87 nha");
     resp.send("file reset");
   }
 });
