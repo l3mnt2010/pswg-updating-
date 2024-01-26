@@ -1,8 +1,8 @@
-Link POC :
+### Link POC :  https://github.com/l3mnt2010/pswg-updating-/blob/main/ckHH/Blind%20Logger%20Middleware/POC.py
 
 - Em test mãi trên burp mà kết quả lúc hiện Logged lúc không mà cú pháp em chắc chắn đúng rùi nên em chuyển qua viết POC đơn giản với python ạ
 
-Đề bài đọc kĩ thì em thấy có một đoạn INSERT dữ liệu cho table logger như sau:
+# Đề bài đọc kĩ thì em thấy có một đoạn INSERT dữ liệu cho table logger như sau:
                   INSERT INTO logger (ip_address, user_agent, referer, url, cookie, created_at) VALUES ('{ip_address}', '{user_agent}', 
                   '{referer}', '{url}', '{cookie}', '{created_at}')
 
